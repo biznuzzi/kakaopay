@@ -201,12 +201,12 @@
 
 .pop_intro .top{
     position: relative;
-    top: -100vh;
+    top: -20vh;
 }
 
 .pop_intro .bottom{
     position: relative;
-    top: 100vh;
+    top: 20vh;
 }
 
 .pop_intro .top .close{
