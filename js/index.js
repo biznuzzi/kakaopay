@@ -19,19 +19,19 @@ $(document).on("click", ".main_btn", function() {
     $("#pop").show();
     $(".pop_intro").find(".top").animate({
         top: "0"
-    },1000,"easeOutBounce");
+    },500,"easeOutBounce");
     $(".pop_intro").find(".bottom").animate({
         top: "0"
-    },1000,"easeOutBounce");
+    },500,"easeOutBounce");
     setTimeout(function() {
         $(".pop_btn").slideDown(400);
-    }, 700);
+    }, 400);
 });
 
 $(document).on("click", ".close", function() {
     $("#pop").hide();
-    $(".pop_intro").find(".top").css("top","-100vh");
-    $(".pop_intro").find(".bottom").css("top","100vh");
+    $(".pop_intro").find(".top").css("top","-20vh");
+    $(".pop_intro").find(".bottom").css("top","20vh");
     $(".pop_btn").hide();
     $("#main").show();
     $("#btn").show();
